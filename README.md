@@ -7,7 +7,11 @@ This repository contains a robust, dockerized ETL (Extract, Transform, Load) pip
 - **Git**
 
 ## Setup
-1. Clone the repository.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MdSamiulHaque/IRIS-Pilot-Service.git
+   cd IRIS-Pilot-Service
+   ```
 2. The repository includes two configuration templates: `.env.dev` (for local development) and `.env.prod` (for production deployment).
 3. Copy the appropriate template to create your active `.env` file (which Docker uses):
    ```bash
